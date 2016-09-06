@@ -5,7 +5,7 @@ IF EXISTS (SELECT * FROM sys.tables WHERE name = 'mytable')
     BEGIN
         PRINT 'mytable 존재';
     END
-else
+ELSE
     BEGIN
         PRINT 'mytable 존재안함';
 
